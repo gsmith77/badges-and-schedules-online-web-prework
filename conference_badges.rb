@@ -13,6 +13,6 @@ end
 
 def printer(attendees)
   puts batch_badge_creator(attendees)
-end
+  yield
   puts assign_rooms(attendees)
 end
