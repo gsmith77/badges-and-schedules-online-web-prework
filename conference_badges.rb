@@ -10,3 +10,6 @@ end
 def assign_rooms(attendees)
   attendees.each_with_index.map { |attendees, number| "Hello, #{attendees}! You'll be assigned to room #{number + 1}!"}
 end
+
+def printer
+  batch_badge_creator + assign_rooms
