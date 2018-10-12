@@ -13,4 +13,5 @@ end
 
 def printer(attendees)
   badges << room_assignments
+  return badges
 end
