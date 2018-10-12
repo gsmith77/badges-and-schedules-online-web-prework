@@ -15,3 +15,4 @@ def printer(attendees)
   attendees.map { |attendees| batch_badge_creator + assign_rooms}
 end
 end
+end
