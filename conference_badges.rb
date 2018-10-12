@@ -12,5 +12,5 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  attendees.map { |attendees| 
+  bad
 end
